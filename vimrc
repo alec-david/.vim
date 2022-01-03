@@ -13,5 +13,6 @@ set ruler
 " Search
 set incsearch       " search as characters are entered
 set hlsearch        " highlight matches
-
-
+" Movement (move vertically by visual line)
+nnoremap j gj
+nnoremap k gk
